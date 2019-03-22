@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace ChooseYourOwnAdventure
 {
-    public class Program
+    public class Story
     {
-        static void Main(string[] args)
-        {
-            ProgramUI program = new ProgramUI();
-            program.Run();
-        }
+        public int Life { get; set; }
+        public int ProjectedSalary { get; set; }
     }
 }
